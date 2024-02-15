@@ -40,8 +40,7 @@ Si juntas una cosa con la otra, te sale esta aplicación 🤦‍♂️
         <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/PC2.png?raw=true" alt="PWA Install 2" width="200"/>
       </td>
       <td>
-        <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/MOBILE.jpg?raw=true
-" alt="PWA Install 3" width="200"/>
+        <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/MOBILE.jpg?raw=true" alt="PWA Install 3" width="200"/>
       </td>
     </tr>
   </table>
