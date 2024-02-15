@@ -2,6 +2,8 @@
 
 ## 🖥 DEMO
 
+[https://capitales.manuelmartin.dev/](https://capitales.manuelmartin.dev/)
+
 ## 🇪🇸 Spanish
 
 ### Descripción
@@ -26,8 +28,21 @@ Si juntas una cosa con la otra, te sale esta aplicación 🤦‍♂️
 
 ### Instalar como PWA
 
-1. Accede a la aplicación desde tu dispositivo móvil o tablet
+1. Accede a la aplicación desde tu dispositivo (móvil, tablet o PC)
 2. Pulsa en el botón de "Instalar" que aparece en la barra de navegación
+
+  <!-- Table for captures -->
+  <table>
+    <tr>
+      <td>
+        <img src="/assets/images/PC1.png" alt="PWA Install 1" width="200"/>
+      </td>
+      <td>
+        <img src="assets/images/pwa-install-2.png" alt="PWA Install 2" width="200"/>
+      </td>
+    </tr>
+  </table>
+
 3. ¡Listo! Ya tienes la aplicación instalada en tu dispositivo
 
 ### Cómo instalar el proyecto localmente
