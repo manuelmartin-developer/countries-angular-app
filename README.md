@@ -29,16 +29,19 @@ Si juntas una cosa con la otra, te sale esta aplicación 🤦‍♂️
 ### Instalar como PWA
 
 1. Accede a la aplicación desde tu dispositivo (móvil, tablet o PC)
-2. Pulsa en el botón de "Instalar" que aparece en la barra de navegación
+2. Pulsa en el botón de "Instalar" que aparece en la barra o menú de navegación
 
-  <!-- Table for captures -->
   <table>
     <tr>
       <td>
-        <img src="/assets/images/PC1.png" alt="PWA Install 1" width="200"/>
+        <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/PC1.png?raw=true" alt="PWA Install 1" width="200"/>
       </td>
       <td>
-        <img src="assets/images/pwa-install-2.png" alt="PWA Install 2" width="200"/>
+        <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/PC2.png?raw=true" alt="PWA Install 2" width="200"/>
+      </td>
+      <td>
+        <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/MOBILE.jpg?raw=true
+" alt="PWA Install 3" width="200"/>
       </td>
     </tr>
   </table>
@@ -96,7 +99,22 @@ If you put one thing with the other, you get this application 🤦‍♂️
 ### Install as PWA
 
 1. Access the application from your mobile device or tablet
-2. Click on the "Install" button that appears in the navigation bar
+2. Click on the "Install" button that appears in the navigation bar or menu
+
+  <table>
+  <tr>
+    <td>
+      <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/PC1.png?raw=true" alt="PWA Install 1" width="200"/>
+    </td>
+    <td>
+      <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/PC2.png?raw=true" alt="PWA Install 2" width="200"/>
+    </td>
+    <td>
+      <img src="https://github.com/manuelmartin-developer/countries-angular-app/blob/master/src/assets/images/MOBILE.jpg?raw=true" alt="PWA Install 3" width="200"/>
+    </td>
+  </tr>
+</table>
+
 3. Done! You have the application installed on your device
 
 ### How to install the project locally
