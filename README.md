@@ -24,7 +24,13 @@ Si juntas una cosa con la otra, te sale esta aplicación 🤦‍♂️
 - Bootstrap 5 (no...no me gusta, pero necesitaba algo rápido y sencillo 😝)
 - RxJS
 
-### Instalación
+### Instalar como PWA
+
+1. Accede a la aplicación desde tu dispositivo móvil o tablet
+2. Pulsa en el botón de "Instalar" que aparece en la barra de navegación
+3. ¡Listo! Ya tienes la aplicación instalada en tu dispositivo
+
+### Cómo instalar el proyecto localmente
 
 1. Clona el repositorio
 
@@ -72,7 +78,13 @@ If you put one thing with the other, you get this application 🤦‍♂️
 - Bootstrap 5 (no...I don't like it, but I needed something quick and easy 😝)
 - RxJS
 
-### Installation
+### Install as PWA
+
+1. Access the application from your mobile device or tablet
+2. Click on the "Install" button that appears in the navigation bar
+3. Done! You have the application installed on your device
+
+### How to install the project locally
 
 1. Clone the repository
 
