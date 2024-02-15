@@ -1,5 +1,5 @@
 <ng-template #loading>
-  <div class="alert alert-info mt-3">Cargando datos... por favor espere</div>
+  <shared-spinner></shared-spinner>
 </ng-template>
 <div *ngIf="countryDetails; else loading">
   <div class="row">

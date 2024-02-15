@@ -1,0 +1,17 @@
+.menu {
+  @media (max-width: 992px) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+.menu-item {
+  @media (max-width: 992px) {
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    text-align: center;
+  }
+}
