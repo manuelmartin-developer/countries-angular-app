@@ -1,27 +1,99 @@
-# CountriesApp
+# Countries Angular App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## 🖥 DEMO
 
-## Development server
+## 🇪🇸 Spanish
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Descripción
 
-## Code scaffolding
+Eres desarrollador....vale...pero también eres padre 👨.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Tienes que recordar Angular, que hace mil vidas que no tocas y tu hijo tiene que estudiarse las capitales de los países del mundo.
 
-## Build
+Si juntas una cosa con la otra, te sale esta aplicación 🤦‍♂️
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Funcionalidades
 
-## Running unit tests
+- Búsqueda de países por nombre
+- Búsqueda de países por capital
+- Búsqueda de países por continente
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Tecnologías
 
-## Running end-to-end tests
+- Angular 17
+- Bootstrap 5 (no...no me gusta, pero necesitaba algo rápido y sencillo 😝)
+- RxJS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Instalación
 
-## Further help
+1. Clona el repositorio
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone git@github.com:manuelmartin-developer/countries-angular-app.git
+```
+
+2. Accede a la carpeta del proyecto
+
+```bash
+cd countries-app
+```
+
+3. Instala las dependencias
+
+```bash
+npm install
+```
+
+4. Arranca el servidor
+
+```bash
+ng serve -o
+```
+
+## 🇬🇧 English
+
+### Description
+
+You are a developer...ok...but you are also a father 👨.
+
+You have to remember Angular, which you haven't touched in a thousand lives and your son has to study the capitals of the countries of the world.
+
+If you put one thing with the other, you get this application 🤦‍♂️
+
+### Features
+
+- Search for countries by name
+- Search for countries by capital
+- Search for countries by continent
+
+### Technologies
+
+- Angular 17
+- Bootstrap 5 (no...I don't like it, but I needed something quick and easy 😝)
+- RxJS
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone git@github.com:manuelmartin-developer/countries-angular-app.git
+```
+
+2. Access the project folder
+
+```bash
+cd countries-app
+```
+
+3. Install the dependencies
+
+```bash
+npm install
+```
+
+4. Start the server
+
+```bash
+ng serve -o
+```

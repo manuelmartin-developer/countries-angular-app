@@ -1,0 +1,9 @@
+img {
+  width: 60px;
+  height: 40px;
+  filter: drop-shadow(0 0 0.15rem #000);
+}
+
+tr {
+  vertical-align: middle;
+}
