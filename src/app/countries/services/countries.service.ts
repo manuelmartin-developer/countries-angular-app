@@ -12,7 +12,7 @@ type SearchType = 'name' | 'capital' | 'region';
 export class CountriesService {
   constructor(private httpClient: HttpClient) {}
 
-  private baseApiUrl: string = 'https://restcountries.com/v3.1';
+  private _baseApiUrl: string = 'https://restcountries.com/v3.1';
 
   public countries: Country[] = [];
   public countryDetails: CountryDetails | null = null;
@@ -22,13 +22,13 @@ export class CountriesService {
     type: SearchType
   ): Observable<Country[]> {
     return this.httpClient
-      .get<Country[]>(`${this.baseApiUrl}/${type}/${term}`)
+      .get<Country[]>(`${this._baseApiUrl}/${type}/${term}`)
       .pipe(catchError(() => of([])));
   }
 
   public searchDetailsByCode(code: string): Observable<CountryDetails | null> {
     return this.httpClient
-      .get<CountryDetails[]>(`${this.baseApiUrl}/alpha/${code}`)
+      .get<CountryDetails[]>(`${this._baseApiUrl}/alpha/${code}`)
       .pipe(
         map((countries) => (Array.isArray(countries) ? countries[0] : null)),
         catchError(() => of(null))
@@ -37,10 +37,6 @@ export class CountriesService {
 
   public get countriesList(): Country[] {
     return this.countries;
-  }
-
-  public set countriesList(countries: Country[]) {
-    this.countries = countries;
   }
 
   public get countryDetailsInfo(): CountryDetails | null {

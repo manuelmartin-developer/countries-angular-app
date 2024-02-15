@@ -9,6 +9,7 @@ import { ByRegionPageComponent } from './pages/by-region-page/by-region-page.com
 import { CountryPageComponent } from './pages/country-page/country-page.component';
 import { SearchBoxComponent } from '../shared/components/search-box/search-box.component';
 import { CountryTableComponent } from './components/countryTable/countryTable.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,6 @@ import { CountryTableComponent } from './components/countryTable/countryTable.co
     SearchBoxComponent,
     CountryTableComponent,
   ],
-  imports: [CommonModule, CountriesRoutingModule],
+  imports: [CommonModule, CountriesRoutingModule, SharedModule],
 })
 export class CountriesModule {}

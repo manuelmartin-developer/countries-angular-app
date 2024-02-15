@@ -1,4 +1,7 @@
-<h2>Por capital</h2>
+<h2>
+  Por capital
+  <shared-spinner *ngIf="isLoading"></shared-spinner>
+</h2>
 <hr />
 
 <div class="row">
@@ -12,10 +15,6 @@
 <div class="row">
   <div class="col">
     <hr />
-    <ul>
-      <countries-country-table
-        [countries]="countries"
-      ></countries-country-table>
-    </ul>
+    <countries-country-table [countries]="countries"></countries-country-table>
   </div>
 </div>
